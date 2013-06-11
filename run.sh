@@ -46,5 +46,5 @@ $MAVENCMD archetype:generate -B -DarchetypeGroupId=com.lichhao -DarchetypeArtifa
 cd ./$PROJECT_NAME/src/main/resources/web && mv folder_to_rename $PROJECT_NAME
 cd ../../../../ && $MAVENCMD eclipse:eclipse
 mv -f $pathoficon "`pwd`/src/main/resources/web/$PROJECT_NAME/images/comp-manager.gif"
-echo "echo Project successfully create! You can find it under `pwd` directory"
+echo "Project successfully create! You can find it under `pwd` directory"
 exit 0
