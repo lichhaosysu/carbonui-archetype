@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<component xmlns="http://products.wso2.org/carbon">
+	<menus>
+
+		<menu>
+			<id>${artifactId}_menu</id>
+			<i18n-key>${artifactId}</i18n-key>
+			<i18n-bundle>${package}.i18n.Resources</i18n-bundle>
+			<parent-menu>configure_menu</parent-menu>
+			<link>../${artifactId}/index.jsp</link>
+			<icon>../${artifactId}/images/comp-manager.gif</icon>
+			<region>region1</region>
+			<order>10</order>
+			<style-class>manage</style-class>
+		</menu>
+
+	</menus>
+</component>
